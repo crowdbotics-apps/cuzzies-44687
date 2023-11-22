@@ -1,6 +1,6 @@
 import axios from "axios"
 const yellowbirdAPI = axios.create({
-  baseURL: "https://yellow-bird-44687.botics.co",
+  baseURL: "https://cuzzies-44687.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
